@@ -1,0 +1,9 @@
+---
+- hosts: localhosts
+  become: true
+  tasks:
+    - name: Instalar devecot
+      dnf: 
+      name: tree
+      state: latests
+...
