@@ -6,4 +6,9 @@
       dnf: 
       name: tree
       state: latests
+      
+    - name: Subir Servicio de Apache
+      sistemd: 
+      name: httpd
+      state: started  
 ...
